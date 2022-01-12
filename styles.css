@@ -1,20 +1,52 @@
-.header{ 
-    border: 6px dotted black
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{ 
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 6px dotted black;
+    align-items: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 15px
+}
+
+h4{
+    font-weight: bold;
+}
 .hero {
-    border: 6px dotted black 
+    border: 6px dotted black;
 }
 
 .middle {
-    border: 6px dotted black 
+    border: 6px dotted black;
 }
 
 .quote {
-    border: 6px dotted black 
+    border: 6px dotted black;
 }
 
 .final {
-    border: 6px dotted black 
+    border: 6px dotted black;
 
 }
